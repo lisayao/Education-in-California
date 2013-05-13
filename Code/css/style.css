@@ -1,0 +1,265 @@
+
+body {
+  font: 10px sans-serif;
+  background-color: rgb(0,0,30) ;
+  color: white;
+  margin: 20px;
+
+}
+
+ .x.axis path{
+	stroke: white;
+}
+
+ .y.axis path{
+	stroke: white;
+}
+
+ .axis {
+	stroke: white;
+}
+
+h3{
+	color: #7BCCC4;
+}
+
+a {color: #BAE4BC; font-size: 12px;}
+
+#sources{
+	font-size: 10px;
+}
+#thebottom{
+	margin: 20px;
+	position: relative;
+	clear: both;
+	top:30px;
+	font-size: 14px;
+}
+
+#border1{
+	position:absolute;
+	height:180px;
+	width:345px;
+	top: 53px;
+	left:316px;
+	border:1px solid gray;
+	border-radius: 15px;
+	background: rgba(200, 200, 255, 0.2);
+	z-index:-1
+}
+
+#border2{
+	position:absolute;
+	height:65px;
+	width:680px;
+	top: 53px;
+	left: 735px;
+	border:1px solid gray;
+	border-radius: 15px;
+	background: rgba(200, 200, 255, 0.2);
+}
+
+#scattermenu{
+	position:absolute;
+	top: 46px;
+	left: 748px;
+}
+
+#b1{
+	position:absolute;
+	height:10px;
+	width:10px;
+	top: 70px;
+	left: 20px;
+	background-color: #F0F9E8;
+	border:1px solid gray;
+}
+
+#b1text{
+	position:absolute;
+	top: 70px;
+	left: 40px;
+	color: white;
+	z-index:1;
+}
+
+#b2{
+	position:absolute;
+	height:10px;
+	width:10px;
+	top: 90px;
+	left: 20px;
+	background-color: #BAE4BC;
+	border:1px solid gray;
+}
+
+#b2text{
+	position:absolute;
+	top: 90px;
+	left: 40px;
+	color: white;
+	z-index:1;
+}
+
+#b3{
+	position:absolute;
+	height:10px;
+	width:10px;
+	top: 110px;
+	left: 20px;
+	background-color: #7BCCC4;
+	border:1px solid gray;
+}
+
+#b3text{
+	position:absolute;
+	top: 110px;
+	left: 40px;
+	color: white;
+	z-index:1;
+}
+
+#thebottom{
+	position: absolute;
+	top: 800px;
+}
+
+
+#b4{
+	position:absolute;
+	height:10px;
+	width:10px;
+	top: 130px;
+	left: 20px;
+	background-color: #43A2CA;
+	border:1px solid gray;
+}
+
+#b4text{
+	position:absolute;
+	top: 130px;
+	left: 40px;
+	color: white;
+	z-index:1;
+}
+
+#b5{
+	position:absolute;
+	height:10px;
+	width:10px;
+	top: 150px;
+	left: 20px;
+	background-color: #0868AC;
+	border:1px solid gray;
+}
+
+#b5text{
+	position:absolute;
+	top: 150px;
+	left: 40px;
+	color: white;
+	z-index:1;
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+#map{
+	position:absolute;
+	top: 60px;
+	right 0px;
+}
+
+#scatter{
+	position:absolute;
+	top: 130px;
+	left: 780px;
+}
+
+#tooltip{
+	position:absolute;
+	top: 90px;
+	left:330px;
+	color:white;
+}
+
+
+
+#selectmenu{
+	position:absolute;
+	top: 60px;
+	left:330px;
+
+}
+
+#table {
+	position:absolute;
+	top: 440px;
+	left: 710px;
+	font-size:9px;
+	color:#333333;
+	width: 730px;
+	border-width: .5px;
+	border-color: #729ea5;
+	border-collapse: collapse;
+}
+
+#table th {
+	font-size:9px;
+	background-color:#acc8cc;
+	border-width: .5px;padding: 5px;
+	border-style: solid;
+	border-color: #729ea5;
+	text-align:left;
+}
+
+#table tr {
+	background-color:#d4e3e5;
+}
+
+#table td {
+	font-size:9px;
+	border-width: .5px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #729ea5;
+}
+
+
+#tablename, #footnotes{
+	font-size: 14px;
+	color:white;
+}
+
+#api_t{
+	width: 500px;
+}
+
+
+circle {
+  fill-opacity: 1;
+}
+
+
+.selecting circle {
+  fill-opacity: 1;
+}
+
+.selecting circle.selected{
+  stroke: #f00;
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
